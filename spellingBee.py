@@ -1,5 +1,4 @@
 import json
-import urllib2
 
 with open("data/words_dictionary.json") as myfile:
     dict = json.load(myfile)
