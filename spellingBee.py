@@ -11,12 +11,11 @@ with open('data/corncob_lowercase.txt') as myfile2:
 
 
 
-
 def center_leter_input():
-    return raw_input('Please enter the key letter : ')
+    return input('Please enter the key letter : ')
 
 def other_letters_input():
-    letter_lst = raw_input('Please enter all other letter : ')
+    letter_lst = input('Please enter all other letter : ')
     return [x for x in letter_lst]
     
 
