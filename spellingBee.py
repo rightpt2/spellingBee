@@ -1,4 +1,5 @@
 import json
+import urllib2
 
 with open("data/words_dictionary.json") as myfile:
     dict = json.load(myfile)
@@ -6,9 +7,9 @@ with open("data/words_dictionary.json") as myfile:
 words = list(dict.keys())[:10000]
 
 
-
 with open('data/corncob_lowercase.txt') as myfile2:
     words = [x.strip('\r\n') for x in myfile2.readlines()]
+
 
 
 
